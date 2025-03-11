@@ -14,4 +14,4 @@ COPY . $HOME_DIR
 RUN mkdir -p $HOME_DIR/app
 
 # Run the script when the container starts
-CMD ["python", "hello_world.py"]
+CMD ["python", "app.py"]
